@@ -11,15 +11,15 @@ int main(){
     }
     else if(n==2)
     {
-        printf("TYour number is 2");
+        printf("Your number is 2");
     }
     else if(n==3)
     {
-        printf("TYour number is 3");
+        printf("Your number is 3");
     }
     else if(n==4)
     {
-        printf("TYour number is 4");
+        printf("Your number is 4");
     }
 
     else{
