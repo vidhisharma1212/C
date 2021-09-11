@@ -1,40 +1,43 @@
 #include<stdio.h> 
 
 int main(){
-    float a,h,g,n;
+    float a,b,c,d,h,g,n;
     printf("Enter a number here: \n");
-    scanf("%d", &a);
-    float b;
+    scanf("%f", &a);
+    
     printf("Enter a number here: \n");
-    scanf("%d", &b);
-    float c;
+    scanf("%f", &b);
+    
     printf("Enter a number here: \n");
-    scanf("%d", &c);
-    float d;
+    scanf("%f", &c);
+    
     printf("Enter a number here: \n");
-    scanf("%d", &d);
+    scanf("%f", &d);
 
     if (a>b){
-        float g=a;
+        g=a;
     }
     else if(a<b){
-        float g=b;
+        g=b;
     }
+    // printf("Out of a and b, %f \n", g);
+
     if (c>d){
-        float h=c;
+        h=c;
     }
     else if (d>c){
-        float h=d;
+        h=d;
     }
-
+    // printf("Out of c and d, %f \n", h);
+    
     if (h>g){
-        float n=h;
+        n=h;
     }
     else if (h<g){
-        float n =g;
+        n =g;
     }
 
-    printf("Highest: %f", n);
+    printf("Highest: %f \n", n);
     
     return 0;
 }
