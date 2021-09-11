@@ -11,5 +11,8 @@ int main(){
     printf("Value of ++i is: %d \n",++i );
     printf("the value of i is printed 7 here, because ++i updates value to +1 there itself. \n" );
     printf("PEHLE INCREMENT KARE PHIR PRINT KARE \n");
+
     return 0;
+    // +++ operator does not exists
+    // i+=10 means add i and update value of i to i+10
 }
