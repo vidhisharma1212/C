@@ -1,25 +1,20 @@
 #include<stdio.h> 
 
 int main(){
-    int o, a, b, c;
-    primtf("Tell out of what.\n");
-    scanf("%d", &o);
+    int a, b, c;
     printf("Enter marks in subject 1 (Out of 100) : \n");
     scanf("%d", &a);
     printf("Enter marks in subject 2 (Out of 100) : \n");
     scanf("%d", &b);
     printf("Enter marks in subject 3 (Out of 100) : \n");
     scanf("%d", &c);
+    float percent=(a+b+c)/3;
 
-    pa=(100*a)/o;
-    pb=(100*b)/o;
-    pc=(100*c)/o;
-    float percent= ((a+b+c)/(3*o))*100;
-    if (percent>=40){
-        if((pa>=33 && pb>=33)&& pc>=33){
-            printf("You got more than 33 perc in every subject. \n");
-            printf("Congrats, You passed with %f Percent! \n", percent);
-        }
+    if((percent<40) || a<33 || b<33 || c<33){
+        printf("You got %f and you failed \n" , percent);
+    }
+    else{
+        printf("Congrats, You passed with %f Percent! \n", percent);
     }
     return 0;
 }
