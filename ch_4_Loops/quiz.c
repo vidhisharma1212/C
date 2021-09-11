@@ -16,7 +16,7 @@ int main(){
        if(i>=10){
            printf("Value of i is: %d \n",i );
        }
-        i++;
+        i++; // increment operator ; i = 1+ 1
     }
     return 0;
 }
