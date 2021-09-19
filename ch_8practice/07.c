@@ -1,16 +1,16 @@
 #include<stdio.h> 
 
-void encrypt(char *c){
+void decrypt(char *c){
     char *ptr= c;
     while(*ptr!='\0'){
-        *ptr= *ptr + 1 ;
+        *ptr= *ptr - 1 ;
         ptr++;
     }
 }
 int main(){
     // char *c; Read only memory 
-    char c[]= "Sab kuch moh hai";
-    encrypt(c);
-    printf("Encrypted string : %s", c);
+    char c[]= "Tbc!lvdi!npi!ibj";
+    decrypt(c);
+    printf("Decrypted string : %s", c);
     return 0;
 }
