@@ -1,7 +1,7 @@
 #include<stdio.h> 
 #include<math.h> 
 
-struct vector{
+typedef struct vector{
     int x;
     int y;
 }vec;
