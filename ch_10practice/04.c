@@ -22,7 +22,7 @@ int main(){
 
     ptr= fopen("04.txt", "w");
     // printf("%s %f\n", e1.n, e1.salary);
-    fprintf(ptr, "%s  %f", e1.n, e1.salary);
+    fprintf(ptr, "%s  %f \n", e1.n, e1.salary);
     fprintf(ptr, "%s  %f", e2.n, e2.salary);
     return 0;
 }
